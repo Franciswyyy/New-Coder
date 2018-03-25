@@ -19,7 +19,7 @@
 
 import java.util.Scanner;
 
-//求字符串数字的和
+
 public class Demo {
 
     public static int numSum(String str) {
