@@ -11,3 +11,4 @@
 | 1001 | 变形词             | [查看题解](/String/BASIC-01-isDeformation.java)     |  |
 | 1002 | 数字子串和         | [查看题解](/String/BASIC-02-numSum.java)     |  |
 | 1003 | 移除连续N个0       | [查看题解](/String/BASIC-03-removeNZero.java)     |  |
+| 1004 | 字符串匹配        | [查看题解](/String/BASIC-04-KMP.java)     | KMP  |
