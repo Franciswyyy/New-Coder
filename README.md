@@ -12,3 +12,4 @@
 | 1002 | 数字子串和         | [查看题解](/String/BASIC-02-numSum.java)     |  |
 | 1003 | 移除连续N个0       | [查看题解](/String/BASIC-03-removeNZero.java)     |  |
 | 1004 | 字符串匹配        | [查看题解](/String/BASIC-04-KMP.java)     | KMP  |
+| 1005 | 旋转词           | [查看题解](/String/BASIC-05-isRolation.java)     |   |
