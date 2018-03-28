@@ -3,7 +3,7 @@
 
 算法题训练 
 
-主要归纳一些平常题  ~ 一直在更新
+主要归纳一些平常做的题  ~ 更新中
 
 
 |  ID  | Title                                            |                   Java                            | 备注                                 |
@@ -13,3 +13,4 @@
 | 1003 | 移除连续N个0       | [查看题解](/String/BASIC-03-removeNZero.java)     |  |
 | 1004 | 字符串匹配        | [查看题解](/String/BASIC-04-KMP.java)     | KMP  |
 | 1005 | 旋转词           | [查看题解](/String/BASIC-05-isRolation.java)     |   |
+| 1006 | 整数串转整数      | [查看题解](/String/BASIC-06-isVaild.java)     | (╯︵╰)  |
