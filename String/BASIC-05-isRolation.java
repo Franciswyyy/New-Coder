@@ -16,7 +16,7 @@
 	那么用kmp算法实现一下，返回整数即是旋转词
 	
 	
-public class Demo {
+public class Solution {
 
 
     public static boolean isRolation(String str1, String str2){
