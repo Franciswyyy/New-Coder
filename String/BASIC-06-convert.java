@@ -31,7 +31,7 @@ debug调试：
         1.判断有效的一个符号或写成于
         2.在判断有效的时候，应从第二个符号开始考虑，否则当为-的时候都无效
 
-public class Demo {
+public class Solution {
 
     public static boolean isVaild(String str){
         if(str == null)   return false;
