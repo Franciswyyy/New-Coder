@@ -1,40 +1,24 @@
 
 
 题目描述：
-	给定一个字符串str，返回统计字符串
-	
+	1. 给定一个字符串str，返回统计字符串
+	2. 在给定一个统计字符串，再给定一个整数，返回所代表的的原始字符串上的字符
 举例： 
 	str = "aaabbadddffc"    a_3_b_2_a_1_d_3_f_2_c_1
+	a_3_b_100   第0个字符为'a' 第50个位'b'
 
 思路：
-	如果字符编码值在0-255之间，则申请一个数组，把每次出现的都存起来。
-	再把出现了的字符减1，如果出现负值则返回false。
-	如果字符类型很多，则直接用哈希表代替数组
+	先生成统计字符串，遍历一次，用StringBuffer来接收。
+	
+	1. StringBuffer转String方法。 1. 构造方法 new String(StringBuffer)     2. StringBuffer.toString
+	2. String转StringBuffer       1. 构造方法 new StringBuffer(String)       2.append  sb.append(str)
 
-字符串的统计
-
-不用额外数组来实现
-用一个Stringbuffer 转成String方法   1.构造方法new String(StringBuffer)  或者 StringBuffer.toString
-String 转 StringBuffer
-    1.构造方法
-        new StringBuffer(String)
-    2.append
-        sb.append(str)
-
-思考：
-有什么好的方法能够全部统计出来每个字符出现的次数，还是必须要建立很长的数组，每
+	统计的话：
+	1. 清楚的知道什么时候开始是数字，因为数字可以有很多位，用flag来显示
+	定义 一个cur表示当前， num出现了多少次 (当前多少,可以是多位的数字)， sum总共多少
 
 
-在统计字符串中给定一个整数index，求其代表的原字符串的第index个字符
-这种还是老方法
-    定义一个cur(表示当前的这个), num(出现了多少次), sum(总共出现了多少次)
-
-    要清楚的知道什么时候开始是数字， 因为数字可能多位。 那就用flag
-* */
-
-public class demo07 {
-
-
+public class Soultion {
 
     public static String getCountString(String str){
         if(str == null || str.equals("")){
@@ -76,7 +60,7 @@ public class demo07 {
         char cur = 0;
         int num = 0;
         int sum = 0;
-        boolean flag = true;  //碰到_取反, true说明是字符串，false说明是开始数了
+        boolean flag = true;     //碰到_取反, true说明是字符串，false说明是开始数了
 
 
         //还要考虑出现的数字是多位数的
