@@ -20,7 +20,7 @@
 	字符的空表示0   而字符串表示空时null, 而""表示空串，有地址，长度为0 
 	
 
-public class Demo {
+public class Solution {
 
     public static String replace(String str, String from, String to){
         if(str == null || from == null || str.equals("") || from.equals("")){
