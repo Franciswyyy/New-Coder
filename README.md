@@ -16,4 +16,4 @@
 | 1006 | 整数串转整数      | [查看题解](/String/BASIC-06-convert.java)     | (╯︵╰)  |
 | 1007 | 替换字符串        | [查看题解](/String/BASIC-07-replace.java)     |       |
 | 1008 | 统计字符串        | [查看题解](/String/BASIC-08-getCountString.java)     |       |
-| 1008 | 统计字符串        | [查看题解](/String/BASIC-08-getCountString.java)     |       |
+| 1009 |                 | [查看题解](/String/BASIC-08-getCountString.java)     |       |
