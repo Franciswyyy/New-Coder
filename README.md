@@ -24,4 +24,6 @@
 
 | Problem                                  | Company | Year | Level  | Passing |
 | ---------------------------------------- | :-----: | :--: | :---:  | :-----: |
+| [京东2017校招编程题汇总](https://www.nowcoder.com/test/5715499/summary)| 京东 | 2018 |  ★★   |  3/3 |
+| [华为研发工程师编程题](https://www.nowcoder.com/test/1088888/summary)| 华为 | 2018 |  ★★   |  3/3 |
 | [2018年校招全国统一模拟笔试（第一场）编程题集合](https://www.nowcoder.com/test/9439037/summary)| 牛客 | 2018 |  ★★   |  3/3 |
