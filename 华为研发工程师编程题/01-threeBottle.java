@@ -1,24 +1,15 @@
-package cn.wang.nowcoder.huawei2017;
 
 import java.util.Scanner;
 
-/*
-3个瓶子换一瓶饮料
-
- */
-
-public class Main01 {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         while(sc.hasNext()){
-
            int m = sc.nextInt();
             System.out.println(getButtle(m));
-
         }
     }
-
 
     public static int getButtle(int n){
         if(n == 1 || n == 0) return 0;
@@ -35,5 +26,13 @@ public class Main01 {
         }
         if(num == 2) res++;
         return res;
+    }
+	
+	// 使用递归做
+	public static int getButtle01(int n){
+        if(n == 0) return 0;
+        if(n == 1) return 0;
+        if(n == 2) return 1;
+        return getButtle01(n -2) + 1;
     }
 }
