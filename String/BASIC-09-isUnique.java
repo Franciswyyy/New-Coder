@@ -46,7 +46,6 @@ public class Soultion {
         return true;
     }
 
-
     public static void main(String[] args) {
         System.out.println(isUnique("adsfvxzcv"));
         System.out.println(isUnique("213sadfs"));
@@ -56,7 +55,6 @@ public class Soultion {
         System.out.println(isUnique("12vsda"));
     }
 }
-
 
 
 
